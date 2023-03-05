@@ -28,30 +28,33 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
-                                Create a new post
+                          <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Launch demo modal
                             </button>
 
-                                                                <!-- Modal -->
-                                    <div id="myModal" class="modal fade" role="dialog">
-                                    <div class="modal-dialog">
-
-                                        <!-- Modal content-->
-                                        <div class="modal-content">
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
                                         <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">Modal Header</h4>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            ...
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
-                                        </div>
-
                                     </div>
-                                    </div>
+                                </div>
+                            </div>
                         </li>
 
                         <!-- gear icon -->
@@ -63,7 +66,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -87,7 +90,58 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
                 tabindex="0">
-                <div class="row-cols-3 row d-flex justify-content-between m-auto g-3 pl-5">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim1/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim2/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim3/400/300" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim4/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim5/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim6/400/300" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim7/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim8/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim9/400/300" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim10/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim12/400/300" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="https://picsum.photos/seed/lurim13/400/300" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="row-cols-3 row d-flex justify-content-between m-auto g-3">
                     <div class="col"><img src="https://picsum.photos/seed/lurim1/450/300" alt=""></div>
                     <div class="col"><img src="https://picsum.photos/seed/lurim2/450/300" alt=""></div>
                     <div class="col"><img src="https://picsum.photos/seed/lurim3/450/300" alt=""></div>
@@ -97,48 +151,57 @@
                     <div class="col"><img src="https://picsum.photos/seed/lurim7/450/300" alt=""></div>
                     <div class="col"><img src="https://picsum.photos/seed/lurim8/450/300" alt=""></div>
                     <div class="col"><img src="https://picsum.photos/seed/lurim9/450/300" alt=""></div>
-                </div>
+                </div> -->
             </div>
+
 
             <div class="tab-pane fade justify-content-center" id="pills-profile" role="tabpanel"
                 aria-labelledby="pills-profile-tab" tabindex="0">
 
-                <div class="row-cols-3 d-flex justify-content-center rounded-0">
+                <div class="row-cols-3 d-flex justify-content-center ">
                     <div class="card" style="width: 36rem;">
-                        <div class="card" style="width: 36rem;">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <img src="https://picsum.photos/seed/lurim2/500/400" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                        <div class="card rounded-0" style="width: 36rem;">
+                            <div
+                                class="card text top card rounded-0  flex-row justify-content-between align-items-center">
+                                <h1>Random pic1</h1>
+                                <p class="date text-center">01/01</p>
+                            </div>
+                            <img src="https://picsum.photos/seed/lurim2/500/400" class="rounded-0 card-img-top"
+                                alt="...">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
                             </div>
 
-                            <div class="card" style="width: 36rem;">
-                                p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <div class="card " style="width: 36rem;">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
                                 <img src="https://picsum.photos/seed/lurim3/500/400" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                <div class="card-body ">
+                                    <p class="card-text ">Some quick example text to build on the card title and make up
                                         the bulk of the card's content.</p>
                                 </div>
 
-                                <div class="card" style="width: 36rem;">
-                                    p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                                <div class="card " style="width: 36rem;">
+                                    <p class="card-text ">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
                                     <img src="https://picsum.photos/seed/lurim4/500/400" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make
+                                    <div class="card-body ">
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make
                                             up the bulk of the card's content.</p>
                                     </div>
                                 </div>
 
-                                <div class="card" style="width: 36rem;">
-                                    p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                                <div class="card " style="width: 36rem;">
+                                    <p class="card-text ">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
                                     <img src="https://picsum.photos/seed/lurim5/500/400" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make
+                                    <div class="card-body ">
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make
                                             up the bulk of the card's content.</p>
                                     </div>
                                 </div>
