@@ -45,7 +45,14 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <div class="form-floating">
+                                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                                <label for="floatingTextarea">Comments</label>
+                                            </div>
+                                            <div class="icon-modal d-flex p-2">
+                                                <div class="cam-icon"><i class="fa-solid fa-camera me-2 border border-secondary-subtle p-2"></i></div>
+                                                <div><i class="fa-solid fa-location-dot border border-secondary-subtle p-2"></i></div>
+                                            </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
@@ -141,79 +148,88 @@
                     </div>
                 </div>
 
-                <!-- <div class="row-cols-3 row d-flex justify-content-between m-auto g-3">
-                    <div class="col"><img src="https://picsum.photos/seed/lurim1/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim2/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim3/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim4/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim5/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim6/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim7/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim8/450/300" alt=""></div>
-                    <div class="col"><img src="https://picsum.photos/seed/lurim9/450/300" alt=""></div>
-                </div> -->
+                                                 <!-- <div class="row-cols-3 row d-flex justify-content-between m-auto g-3">
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim1/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim2/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim3/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim4/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim5/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim6/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim7/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim8/450/300" alt=""></div>
+                                                            <div class="col"><img src="https://picsum.photos/seed/lurim9/450/300" alt=""></div>
+                                                        </div> -->
             </div>
 
 
             <div class="tab-pane fade justify-content-center" id="pills-profile" role="tabpanel"
                 aria-labelledby="pills-profile-tab" tabindex="0">
 
-                <div class="row-cols-3 d-flex justify-content-center ">
-                    <div class="card" style="width: 36rem;">
-                        <div class="card rounded-0" style="width: 36rem;">
-                            <div
-                                class="card text top card rounded-0  flex-row justify-content-between align-items-center">
-                                <h1>Random pic1</h1>
-                                <p class="date text-center">01/01</p>
-                            </div>
-                            <img src="https://picsum.photos/seed/lurim2/500/400" class="rounded-0 card-img-top"
-                                alt="...">
-                            <div class="card-body ">
-                                <p class="card-text ">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                            </div>
+                <div class="border border-0 row-cols-3 d-flex justify-content-center">
 
-                            <div class="card " style="width: 36rem;">
-                                <p class="card-text ">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <img src="https://picsum.photos/seed/lurim3/500/400" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="card-text ">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-
-                                <div class="card " style="width: 36rem;">
-                                    <p class="card-text ">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <img src="https://picsum.photos/seed/lurim4/500/400" class="card-img-top" alt="...">
-                                    <div class="card-body ">
-                                        <p class="card-text ">Some quick example text to build on the card title and
-                                            make
-                                            up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-
-                                <div class="card " style="width: 36rem;">
-                                    <p class="card-text ">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <img src="https://picsum.photos/seed/lurim5/500/400" class="card-img-top" alt="...">
-                                    <div class="card-body ">
-                                        <p class="card-text ">Some quick example text to build on the card title and
-                                            make
-                                            up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                    <div class="container" style="width: 36rem;">
+                        <div class="card rounded-0 mb-5 " style="width: 36rem;">
+                                            <div
+                                                class="card text top card rounded-0  flex-row justify-content-between align-items-center">
+                                                <h1>Random pic1</h1>
+                                                <p class="date">01/01</p>
+                                            </div>
+                                            <img src="https://picsum.photos/seed/lurim2/500/400" class="rounded-0 card-img-top"
+                                                alt="...">
+                                            <div class="card-body ">
+                                                <p class="card-text ">Some quick example text to build on the card title and make up the
+                                                    bulk of the card's content.</p>
+                                            </div>
                         </div>
-                    </div>
+
+                            <div class="card mb-5 card rounded-0 " style="width: 36rem;">
+                                                <div
+                                                    class="card text top card rounded-0  flex-row justify-content-between align-items-center">
+                                                    <h1>Random pic1</h1>
+                                                    <p class="date">01/01</p>
+                                                </div>
+                                                <img src="https://picsum.photos/seed/lurim3/500/400" class="rounded-0 card-img-top" alt="...">
+                                                <div class="card-body ">
+                                                    <p class="card-text ">Some quick example text to build on the card title and make up
+                                                        the bulk of the card's content.</p>
+                                                    </div>
+                            </div>
+                                    
+                                <div class="card mb-5 card rounded-0 " style="width: 36rem;">
+                                                    <div
+                                                        class="card text top card rounded-0  flex-row justify-content-between align-items-center">
+                                                        <h1>Random pic1</h1>
+                                                        <p class="date">01/01</p>
+                                                    </div>
+                                                    <img src="https://picsum.photos/seed/lurim4/500/400" class="rounded-0 card-img-top" alt="...">
+                                                    <div class="card-body ">
+                                                        <p class="card-text ">Some quick example text to build on the card title and
+                                                            make
+                                                            up the bulk of the card's content.</p>
+                                                    </div>
+                                </div>
+
+                                <div class="card mb-5 card rounded-0 " style="width: 36rem;">
+                                                    <div
+                                                        class="card text top card rounded-0  flex-row justify-content-between align-items-center">
+                                                        <h1>Random pic1</h1>
+                                                        <p class="date">01/01</p>
+                                                    </div>
+                                                    <img src="https://picsum.photos/seed/lurim5/500/400" class="rounded-0 card-img-top" alt="...">
+                                                    <div class="card-body ">
+                                                        <p class="card-text ">Some quick example text to build on the card title and
+                                                            make
+                                                            up the bulk of the card's content.</p>
+                                                    </div>
+                                </div>
+
+                        </div>
 
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
                     crossorigin="anonymous"></script>
+            </div>
 </body>
 
 </html>
