@@ -30,7 +30,7 @@
                         <li class="nav-item">
                           <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Launch demo modal
+                                Create a new post
                             </button>
 
                             <!-- Modal -->
@@ -40,14 +40,21 @@
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
+
+                                        <div class="modaltext ms-3">
+                                        <p>Caption : </p>
+                                        </div>
+                                        
                                         <div class="modal-body">
                                             <div class="form-floating">
+                                                
+                                                <!-- Textarea -->
                                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                                <label for="floatingTextarea">Comments</label>
+                                                <label for="floatingTextarea">Add the caption of your post</label>
                                             </div>
                                             <div class="icon-modal d-flex p-2">
                                                 <div class="cam-icon"><i class="fa-solid fa-camera me-2 border border-secondary-subtle p-2"></i></div>
